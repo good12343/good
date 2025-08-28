@@ -45,7 +45,7 @@ export default function Purchase() {
 
                                                                                                     try {
                                                                                                           // حط عنوانك انت هنا (مالك المشروع)
-                                                                                                                const recipient = new PublicKey("YourDevnetWalletAddressHere");
+                                                                                                                const recipient = new PublicKey("G14KXQj3V5gcPgVMS4MQHaGYxuPhCVfVtf7wHJ7yYx7q");
 
                                                                                                                       const tx = new Transaction().add(
                                                                                                                               SystemProgram.transfer({
