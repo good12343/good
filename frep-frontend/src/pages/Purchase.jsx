@@ -3,7 +3,7 @@ import { Connection, PublicKey } from "@solana/web3.js";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { Sun, Moon } from "lucide-react";
-import "./App.css"; // غير المسار حسب موقع CSS الآن
+import "../App.css"; // غير المسار حسب موقع CSS الآن
 
 const SOLANA_RPC = "https://api.mainnet-beta.solana.com";
 const connection = new Connection(SOLANA_RPC);
