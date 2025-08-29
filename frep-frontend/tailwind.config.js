@@ -2,7 +2,7 @@
 export default {
   content: [
       "./index.html",
-          "./src/**/*.{js,ts,jsx,tsx}", // يخلي Tailwind يقرأ كل ملفاتك داخل src
+          "./src/**/*.{js,ts,jsx,tsx}",
             ],
               theme: {
                   extend: {},
