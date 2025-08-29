@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Connection, PublicKey, SystemProgram, Transaction } from "@solana/web3.js";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { useWallet } from "@solana/wallet-adapter-react";
-import "./App.css";
+import "../App.css";
 
 const SOLANA_RPC = "https://api.devnet.solana.com"; // Devnet for testing
 const connection = new Connection(SOLANA_RPC);
