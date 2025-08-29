@@ -1,7 +1,3 @@
-body { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
-.nav { background: #f8fafc; padding: 10px; }
-.nav a { margin-right: 10px; text-decoration: none; color: #111827; }
-button { padding: 8px 12px; border-radius:6px; border:1px solid #ccc; }
-.btn-secondary { background:#eee; }
-.btn-buy { background: #10b981; color:white; }
-input { padding:8px; border-radius:6px; }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
