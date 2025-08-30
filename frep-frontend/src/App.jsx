@@ -21,10 +21,6 @@ export default function App() {
                                                                                     </nav>
                                                                                           </header>
 
-<div className="min-h-screen bg-red-500 text-white flex items-center justify-center">
-            <h1 className="text-4xl font-bold">Tailwind شغال؟</h1>
-                </div>
-
                                                                                                 {/* Main content */}
                                                                                                       <main className="pt-24 px-4 sm:px-6 lg:px-8">
                                                                                                               <Routes>
