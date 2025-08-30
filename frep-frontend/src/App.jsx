@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import BuyPage from "./pages/BuyPage"; // صفحة الشراء
+import Purchase from "./pages/Purchase"; // صفحة الشراء
 
 export default function App() {
   return (
@@ -8,7 +8,7 @@ export default function App() {
             <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center">
                     {/* الرابط إلى صفحة الشراء */}
                             <Link
-                                      to="/buy"
+                                      to="/purchase"
                                                 className="px-6 py-3 bg-blue-600 rounded-xl shadow-lg hover:bg-blue-700 transition"
                                                         >
                                                                   الذهاب إلى صفحة الشراء
@@ -16,7 +16,7 @@ export default function App() {
 
                                                                                   {/* المسارات */}
                                                                                           <Routes>
-                                                                                                    <Route path="/buy" element={<BuyPage />} />
+                                                                                                    <Route path="/purchase" element={<Purchase />} />
                                                                                                             </Routes>
                                                                                                                   </div>
                                                                                                                       </Router>
