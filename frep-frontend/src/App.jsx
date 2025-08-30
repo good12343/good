@@ -8,7 +8,8 @@ import Purchase from './pages/Purchase';
 
 export default function App() {
   return (
-      <BrowserRouter>
+     
+     <BrowserRouter>
             {/* Header */}
                   <header className="nav bg-gray-900 text-white fixed top-0 w-full z-50 shadow">
                           <nav className="max-w-6xl mx-auto flex justify-center sm:justify-start gap-6 py-4 px-6">
@@ -19,6 +20,10 @@ export default function App() {
                                                                             <Link to="/purchase" className="hover:text-blue-400 transition">Purchase</Link>
                                                                                     </nav>
                                                                                           </header>
+
+<div className="min-h-screen bg-red-500 text-white flex items-center justify-center">
+            <h1 className="text-4xl font-bold">Tailwind شغال؟</h1>
+                </div>
 
                                                                                                 {/* Main content */}
                                                                                                       <main className="pt-24 px-4 sm:px-6 lg:px-8">
