@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Connection, PublicKey, Transaction, SystemProgram } from "@solana/web3.js";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { useWallet } from "@solana/wallet-adapter-react";
-
+import './index.css';
 // shadcn/ui components
 import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
